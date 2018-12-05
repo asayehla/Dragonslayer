@@ -1,0 +1,150 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+h1 {
+  text-align:center;
+  margin: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0a0a0a;
+    background: #fefefe;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5em;
+  overflow: visible;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  line-height: 1;
+}
+
+button, select {
+  text-transform: none;
+}
+img {
+  margin-left: 70px;
+}
+
+.small-6 {width: 50%;
+float: left;}
+
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.healthbar {
+    width: 80%;
+    height: 20px;
+    background-color: #eee;
+    margin: auto;
+    transition: width 500ms;
+}
+
+.controls, .log {
+    margin: 10px 60px ;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px #ccc;
+}
+
+.turn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.log ul li {
+    margin: 5px;
+}
+
+.log ul .player-turn {
+    color: blue;
+    background-color: #e4e8ff;
+}
+
+.log ul .monster-turn {
+    color: red;
+    background-color: #ffc0c1;
+}
+
+button {
+    font-size: 18px;
+    background-color: #eee;
+    padding: 10px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+}
+
+#start-game {
+    background-color: #aaffb0;
+}
+
+#start-game:hover {
+    background-color: #76ff7e;
+}
+
+#attack {
+    background-color: #ff7367;
+}
+
+#attack:hover {
+    background-color: #ff3f43;
+}
+
+#special-attack {
+    background-color: #ffaf4f;
+}
+
+#special-attack:hover {
+    background-color: #ff9a2b;
+}
+
+#heal {
+    background-color: #aaffb0;
+}
+
+#heal:hover {
+    background-color: #76ff7e;
+}
+
+#give-up {
+    background-color: #ffffff;
+}
+
+#give-up:hover {
+    background-color: #c7c7c7;
+}
